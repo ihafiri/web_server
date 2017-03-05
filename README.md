@@ -1,13 +1,13 @@
 # Vulnerable Web Server
-## A web server written entirely from scratch with the following features:
+A web server written entirely from scratch with the following features:
 <return>
-1- GET, POST, PUSH, DELETE, and CONNECT methods are supported. they can beenabled and disabled from the config file.<return>
-2- Static HTML, CSS, Javascript, and PHP are supported.<return>
-3- $_GET and $_POST parameters are supported in php.<return>
-4- Limited support for session management. the server gives a cookie to every request made to a php script, and passes the cookie to the php interpreter using $PHPESSID variable.<return>
-5- HTTP responses are implemented (200, 404, 400, 500, 505).<return>
-6- Request and error logging
-5- Multiple vulnerabilities :)<return>
+* GET, POST, PUSH, DELETE, and CONNECT methods are supported. they can beenabled and disabled from the config file.<return>
+* Static HTML, CSS, Javascript, and PHP are supported.<return>
+* $_GET and $_POST parameters are supported in php.<return>
+* Limited support for session management. the server gives a cookie to every request made to a php script, and passes the cookie to the php interpreter using $PHPESSID variable.<return>
+* HTTP responses are implemented (200, 404, 400, 500, 505).<return>
+* Request and error logging
+* Multiple vulnerabilities :)<return>
 
 ## The server requires the following to run:
 1- Python 2.7<return>

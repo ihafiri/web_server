@@ -1,0 +1,1 @@
+<?php $_POST=array('user'=>'issa','submit'=>'log+in','pass'=>'lab123',);$PHPESSID='73097fcc74829c2d6221fc6e12552094';?>

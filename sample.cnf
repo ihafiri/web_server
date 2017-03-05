@@ -1,0 +1,20 @@
+[SRVCONF]
+ListenIP = 0.0.0.0
+ListenPort = 8081
+RootDIR = ./webapp1
+IndexPage = home.php
+tmpDir=./tmp
+
+[METHODS]
+GET = enabled
+POST = enabled
+PUT = enabled
+DELETE = enabled
+CONNECT = enabled
+
+[LOG]
+AccessLog = ./log/access.log
+ErrorLog = ./log/error.log
+
+[SESSION]
+LOGOUT=/logout.php
